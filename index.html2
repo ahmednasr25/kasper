@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>project two</title>
+</head>
+<body>
+<header>
+    <div class="container">        
+        <a href=""><img class="logo" src="logo.png" alt=""></a>
+        <div class="head">
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="form">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="landing">
+    <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>Hello World!
+                    <br>
+                    We Are Kasper We Make Art.</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+        </div>
+        <i class="fa-solid fa-angle-left change-background fa-2x"></i>
+        <i class="fa-solid fa-angle-right change-background fa-2x"></i>
+    <ul class="bullets">
+        <li></li>
+        <li class="active"></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
